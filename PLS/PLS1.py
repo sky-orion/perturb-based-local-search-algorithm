@@ -49,7 +49,7 @@ def PLS(instance):
             wo = wo + 1
         else:
             sign = True
-    return globalbest
+    return gbest
 
 
 def localsearch(s, operatorlist):
